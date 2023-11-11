@@ -65,6 +65,7 @@ a {
     display: flex;
     border: none;
     padding: 0 6rem 0 0;
+    outline: none;
 }
 
 .header__nav-item_btn-input::placeholder {
@@ -81,6 +82,7 @@ a {
 .header__nav-item-text {
     font-size: 0.875rem;
     font-weight: 400;
+    color: #000000;
 }
 
 .header__nav-item_contacts {
@@ -243,6 +245,8 @@ a {
 .info-links__list-item_hover {
     padding-right: 59rem;
     border: none;
+    outline: none;
+    color: #000000;
 }
 
 .info-links__list-item_hover::placeholder {
