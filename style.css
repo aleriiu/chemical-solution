@@ -223,14 +223,6 @@ a {
     padding: 1.563rem;
 }
 
-.info-links__btn-mob {
-    display: none;
-    background-color: #3acbc7;
-    border-radius: 50px;
-    justify-content: space-around;
-    padding: 1.563rem;
-}
-
 .info-links_column {
     width: 49.7%;
     background-color: #69a74f;
@@ -260,7 +252,14 @@ a {
 }
 
 .info-links__list-item_hover {
+    padding-right: 59rem;
+    border: none;
+}
+
+.info-links__list-item_hover::placeholder {
     color: #595959;
+    font-size: 1.125rem;
+    font-weight: 700;
 }
 
 /* news */
