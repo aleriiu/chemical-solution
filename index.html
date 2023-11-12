@@ -18,18 +18,22 @@
         <div class="header__container">
             <img src="./images/logo.png" alt="Лого">
             <div class="header__nav">
-                <div class="header__nav-item">
+                <div class="header__nav-item header__nav-item_mob">
                     <div class="header__nav-item_btn">
                         <img src="./images/seach-icon.png" alt="icon" width="18">
                         <input type="text" size="10" class="header__nav-item_btn-input" placeholder="ПОИСК">
                     </div>
                     <div class="header__nav-item-group">
-                        <a target="_blank" class="header__nav-item-text" href="mailto:client@chemial.ru"><p class="header__nav-item-text">client@chemial.ru</p></a>
+                        <p class="header__nav-item-text"><a target="_blank" class="header__nav-item-text links-hover"
+                                href="mailto:client@chemial.ru">
+                                client@chemial.ru
+                            </a></p>
                         <div class="header__nav-item_contacts">
                             <img src="./images/phone-icon.png" alt="icon">
-                            <a target="_blank" class="header__nav-item_contacts-link" href="tel:+78127777777">
-                                <p class="header__nav-item_contacts-link">+7 812 777-77-77</p>
-                            </a>
+                            <p class="header__nav-item_contacts-link"><a target="_blank"
+                                    class="header__nav-item_contacts-link links-hover" href="tel:+78127777777">
+                                    +7 812 777-77-77
+                                </a></p>
                         </div>
                     </div>
                     <div class="header__icon">
@@ -39,19 +43,25 @@
                     </div>
                     <div class="header__nav-item_basket">
                         <img src="./images/icon-basket.png" alt="icon">
-                        <p class="header__nav-item-text">17 товаров</p>
+                        <p class="header__nav-item-text"><a class="header__nav-item-text links-hover" href="#">17
+                                товаров</a></p>
                     </div>
                 </div>
+                <input id="menu-toggle" type="checkbox" />
+                <label class='menu-button-container' for="menu-toggle">
+                    <div class='menu-button'></div>
+                </label>
                 <ul class="header__nav-item-list">
-                    <li class="header__nav-item">КАТАЛОГ
+                    <li class="header__nav-item header__nav-item-burger"><a class="header__nav-item links-hover" href="#">КАТАЛОГ</a>
                     </li>
-                    <li class="header__nav-item">ПРОИЗВОДСТВО
+                    <li class="header__nav-item header__nav-item-burger"><a class="header__nav-item links-hover" href="#">ПРОИЗВОДСТВО</a>
                     </li>
-                    <li class="header__nav-item">ХИМИЧЕСКАЯ ПРОДУКЦИЯ
+                    <li class="header__nav-item header__nav-item-burger"><a class="header__nav-item links-hover" href="#">ХИМИЧЕСКАЯ
+                            ПРОДУКЦИЯ</a>
                     </li>
-                    <li class="header__nav-item">КОНТАКТЫ
+                    <li class="header__nav-item header__nav-item-burger"><a class="header__nav-item links-hover" href="#">КОНТАКТЫ</a>
                     </li>
-                    <li class="header__nav-item">ОПЛАТА И ДОСТАВКА
+                    <li class="header__nav-item header__nav-item-burger"><a class="header__nav-item links-hover" href="#">ОПЛАТА И ДОСТАВКА</a>
                     </li>
                 </ul>
             </div>
@@ -62,14 +72,14 @@
             <div class="hero-container">
                 <div class="image-container-scroll">
                     <div class="image-container">
-                        <a target="_blank" class="banner-link" href=""><img class="banner-image " src="./images/banner-hero.png"
-                                alt="Баннер"></a>
-                        <a target="_blank" class="banner-link" href=""><img class="banner-image" src="./images/hero_banner.png"
-                                alt="Баннер"></a>
-                        <a target="_blank" class="banner-link" href=""><img class="banner-image" src="./images/banner-hero.png"
-                                alt="Баннер"></a>
-                        <a target="_blank" class="banner-link" href=""><img class="banner-image" src="./images/hero_banner.png"
-                                alt="Баннер"></a>
+                        <a target="_blank" class="banner-link" href=""><img class="banner-image "
+                                src="./images/banner-hero.png" alt="Баннер"></a>
+                        <a target="_blank" class="banner-link" href=""><img class="banner-image"
+                                src="./images/hero_banner.png" alt="Баннер"></a>
+                        <a target="_blank" class="banner-link" href=""><img class="banner-image"
+                                src="./images/banner-hero.png" alt="Баннер"></a>
+                        <a target="_blank" class="banner-link" href=""><img class="banner-image"
+                                src="./images/hero_banner.png" alt="Баннер"></a>
                     </div>
                     <div class="hero__btn">
                         <button id="btn-one" type="submit" class="hero__btn-click btn-active"></button>
@@ -85,44 +95,44 @@
                 <h3 class="info-links__list_header">АССОРТИМЕНТ ТОВАРОВ</h3>
                 <div class="info-links__list">
                     <ul class="info-links__list_gap">
-                        <li class="info-links__list-items"><img src="./images/flag_icon.png" alt="icon" width="33"><a target="_blank"
-                                class="info-links__list-item" href="#">Химическая продукция
+                        <li class="info-links__list-items"><img src="./images/flag_icon.png" alt="icon" width="33"><a
+                                target="_blank" class="info-links__list-item" href="#">Химическая продукция
                             </a></li>
                         <li class="info-links__list-items"><img src="./images/document-icon.png" alt="icon"
                                 width="33"><a target="_blank" class="info-links__list-item" href="#">Хобби и
                                 творчество</a></li>
-                        <li class="info-links__list-items"><img src="./images/vacancy-icon.png" alt="icon" width="33"><a target="_blank"
-                                class="info-links__list-item" href="#">Индикаторы
+                        <li class="info-links__list-items"><img src="./images/vacancy-icon.png" alt="icon" width="33"><a
+                                target="_blank" class="info-links__list-item" href="#">Индикаторы
                                 и красители</a></li>
                     </ul>
                     <ul class="info-links__list_gap">
-                        <li class="info-links__list-items"><img src="./images/mask-icon.png" alt="icon" width="33"><a target="_blank"
-                                class="info-links__list-item" href="">Питательные среды
+                        <li class="info-links__list-items"><img src="./images/mask-icon.png" alt="icon" width="33"><a
+                                target="_blank" class="info-links__list-item" href="">Питательные среды
                             </a></li>
-                        <li class="info-links__list-items"><img src="./images/wond-icon.png" alt="icon" width="33"><a target="_blank"
-                                class="info-links__list-item" href="">Лабораторное
+                        <li class="info-links__list-items"><img src="./images/wond-icon.png" alt="icon" width="33"><a
+                                target="_blank" class="info-links__list-item" href="">Лабораторное
                                 оборудование</a></li>
-                        <li class="info-links__list-items"><img src="./images/grant-icon.png" alt="icon" width="33"><a target="_blank"
-                                class="info-links__list-item" href="">Измерительное
+                        <li class="info-links__list-items"><img src="./images/grant-icon.png" alt="icon" width="33"><a
+                                target="_blank" class="info-links__list-item" href="">Измерительное
                                 оборудование</a></li>
                     </ul>
                     <ul class="info-links__list_gap">
-                        <li class="info-links__list-items"><img src="./images/payment-icon.png" alt="icon" width="33"><a target="_blank"
-                                class="info-links__list-item" href="">Вспомогательное
+                        <li class="info-links__list-items"><img src="./images/payment-icon.png" alt="icon" width="33"><a
+                                target="_blank" class="info-links__list-item" href="">Вспомогательное
                                 оборудование
                             </a></li>
-                        <li class="info-links__list-items"><img src="./images/payment-icon.png" alt="icon" width="33"><a target="_blank"
-                                class="info-links__list-item" href="">Бумага фильтровальная</a></li>
-                        <li class="info-links__list-items"><img src="./images/payment-icon.png" alt="icon" width="33"><a target="_blank"
-                                class="info-links__list-item" href="">Средства защиты</a></li>
+                        <li class="info-links__list-items"><img src="./images/payment-icon.png" alt="icon" width="33"><a
+                                target="_blank" class="info-links__list-item" href="">Бумага фильтровальная</a></li>
+                        <li class="info-links__list-items"><img src="./images/payment-icon.png" alt="icon" width="33"><a
+                                target="_blank" class="info-links__list-item" href="">Средства защиты</a></li>
                     </ul>
                     <ul class="info-links__list_gap">
-                        <li class="info-links__list-items"><img src="./images/payment-icon.png" alt="icon" width="33"><a target="_blank"
-                                class="info-links__list-item" href="">Стандарт-титры
+                        <li class="info-links__list-items"><img src="./images/payment-icon.png" alt="icon" width="33"><a
+                                target="_blank" class="info-links__list-item" href="">Стандарт-титры
                                 (фиксаналы)
                             </a></li>
-                        <li class="info-links__list-items"><img src="./images/payment-icon.png" alt="icon" width="33"><a target="_blank"
-                                class="info-links__list-item" href="">Стандартные образцы</a></li>
+                        <li class="info-links__list-items"><img src="./images/payment-icon.png" alt="icon" width="33"><a
+                                target="_blank" class="info-links__list-item" href="">Стандартные образцы</a></li>
                     </ul>
                 </div>
                 <div>
@@ -143,9 +153,11 @@
                                     на следующий день
                                 </a></li>
                             <li class="info-links__list-items"><img src="./images/document-icon.png" alt="icon"
-                                    width="33"><a target="_blank" class="info-links__list-item" href="#">Бесплатная доставка</a></li>
+                                    width="33"><a target="_blank" class="info-links__list-item" href="#">Бесплатная
+                                    доставка</a></li>
                             <li class="info-links__list-items"><img src="./images/vacancy-icon.png" alt="icon"
-                                    width="33"><a target="_blank" class="info-links__list-item" href="#">Оплата по факту поставки</a>
+                                    width="33"><a target="_blank" class="info-links__list-item" href="#">Оплата по факту
+                                    поставки</a>
                             </li>
                         </ul>
                         <ul class="info-links__list_gap">
@@ -154,9 +166,11 @@
                                     на первый заказ
                                 </a></li>
                             <li class="info-links__list-items"><img src="./images/document-icon.png" alt="icon"
-                                    width="33"><a target="_blank" class="info-links__list-item" href="">Все в наличии</a></li>
+                                    width="33"><a target="_blank" class="info-links__list-item" href="">Все в
+                                    наличии</a></li>
                             <li class="info-links__list-items"><img src="./images/vacancy-icon.png" alt="icon"
-                                    width="33"><a target="_blank" class="info-links__list-item" href="">Выгодные цены</a></li>
+                                    width="33"><a target="_blank" class="info-links__list-item" href="">Выгодные
+                                    цены</a></li>
                         </ul>
                     </div>
                 </div>
@@ -169,9 +183,11 @@
                                     на следующий день
                                 </a></li>
                             <li class="info-links__list-items"><img src="./images/document-icon.png" alt="icon"
-                                    width="33"><a target="_blank" class="info-links__list-item" href="#">Бесплатная доставка</a></li>
+                                    width="33"><a target="_blank" class="info-links__list-item" href="#">Бесплатная
+                                    доставка</a></li>
                             <li class="info-links__list-items"><img src="./images/vacancy-icon.png" alt="icon"
-                                    width="33"><a target="_blank" class="info-links__list-item" href="#">Оплата по факту поставки</a>
+                                    width="33"><a target="_blank" class="info-links__list-item" href="#">Оплата по факту
+                                    поставки</a>
                             </li>
                         </ul>
                         <ul class="info-links__list_gap">
@@ -180,9 +196,11 @@
                                     на первый заказ
                                 </a></li>
                             <li class="info-links__list-items"><img src="./images/document-icon.png" alt="icon"
-                                    width="33"><a target="_blank" class="info-links__list-item" href="">Все в наличии</a></li>
+                                    width="33"><a target="_blank" class="info-links__list-item" href="">Все в
+                                    наличии</a></li>
                             <li class="info-links__list-items"><img src="./images/vacancy-icon.png" alt="icon"
-                                    width="33"><a target="_blank"class="info-links__list-item" href="">Выгодные цены</a></li>
+                                    width="33"><a target="_blank" class="info-links__list-item" href="">Выгодные
+                                    цены</a></li>
                         </ul>
                     </div>
                 </div>
@@ -249,7 +267,6 @@
                         <h3 class="new-card__title">Заголовок данной новости, закголовок данной новости, закголовок
                             данной новости.</h3>
                         <p class="new-card__text">
-
                             Краткий текст данной новости, краткий текст данной новости, краткий текст данной новости,
                             краткий текст данной новости, краткий текст данной новости, краткий текст данной новости</p>
                     </div>
@@ -288,8 +305,8 @@
                             Арт. 5683921
                         </p>
                         <p class="popular-card__price">700 руб / шт</p>
-                        <a target="_blank" class="popular-card__link" href=""><button class="popular-card__btn">Узнать
-                                подробнее</button></a>
+                        <button class="popular-card__btn"><a target="_blank" class="popular-card__link" href="#">Узнать
+                                подробнее</a></button>
                     </div>
                 </div>
                 <div class="news-card popular-card card-shadow">
@@ -303,8 +320,8 @@
                         <p class="new-card__text">
                             Арт. 5683921</p>
                         <p class="popular-card__price">700 руб / шт</p>
-                        <a target="_blank" class="popular-card__link" href=""><button class="popular-card__btn">Узнать
-                                подробнее</button></a>
+                        <button class="popular-card__btn"><a target="_blank" class="popular-card__link" href="#">Узнать
+                                подробнее</a></button>
                     </div>
                 </div>
                 <div class="news-card popular-card card-shadow">
@@ -318,8 +335,8 @@
                         <p class="new-card__text">
                             Арт. 5683921</p>
                         <p class="popular-card__price">700 руб / шт</p>
-                        <a target="_blank" class="popular-card__link" href=""><button class="popular-card__btn">Узнать
-                                подробнее</button></a>
+                        <button class="popular-card__btn"><a target="_blank" class="popular-card__link" href="#">Узнать
+                                подробнее</a></button>
                     </div>
                 </div>
                 <div class="news-card popular-card card-shadow">
@@ -333,8 +350,8 @@
                         <p class="new-card__text">
                             Арт. 5683921</p>
                         <p class="popular-card__price">700 руб / шт</p>
-                        <a target="_blank" class="popular-card__link" href=""><button class="popular-card__btn">Узнать
-                                подробнее</button></a>
+                        <button class="popular-card__btn"><a target="_blank" class="popular-card__link" href="#">Узнать
+                                подробнее</a></button>
                     </div>
                 </div>
                 <div class="news-card popular-card card-shadow">
@@ -348,8 +365,8 @@
                         <p class="new-card__text">
                             Арт. 5683921</p>
                         <p class="popular-card__price">700 руб / шт</p>
-                        <a target="_blank" class="popular-card__link" href=""><button class="popular-card__btn">Узнать
-                                подробнее</button></a>
+                        <button class="popular-card__btn"><a target="_blank" class="popular-card__link" href="#">Узнать
+                                подробнее</a></button>
                     </div>
                 </div>
             </div>
@@ -380,8 +397,8 @@
                             <li class="info-links__list-items"><img src="./images/document-icon.png" alt="icon"
                                     width="33"><a class="info-links__list-item" href="#">client@chemial.ru</a></li>
                         </ul>
-                        <a target="_blank" class="partners-link" href=""><button
-                                class="popular-card__btn popular-card__btn-contacts">Обратный звонок</button></a>
+                        <button class="popular-card__btn popular-card__btn-contacts"><a target="_blank"
+                                class="partners-link" href="">Обратный звонок</a></button>
                     </div>
                 </div>
             </div>
@@ -402,15 +419,20 @@
             </div>
             <div class="footer-info">
                 <ul class="footer-info-links">
-                    <li class="footer-info-links__items"><a target="_blank" class="footer-info-links__item" href="#">Каталог
+                    <li class="footer-info-links__items"><a target="_blank" class="footer-info-links__item"
+                            href="#">Каталог
                         </a></li>
-                    <li class="footer-info-links__items"><a target="_blank" class="footer-info-links__item" href="#">Производство</a>
+                    <li class="footer-info-links__items"><a target="_blank" class="footer-info-links__item"
+                            href="#">Производство</a>
                     </li>
-                    <li class="footer-info-links__items"><a target="_blank" class="footer-info-links__item" href="#">Химическая
+                    <li class="footer-info-links__items"><a target="_blank" class="footer-info-links__item"
+                            href="#">Химическая
                             продукция</a></li>
-                    <li class="footer-info-links__items"><a target="_blank" class="footer-info-links__item" href="#">Контакты</a>
+                    <li class="footer-info-links__items"><a target="_blank" class="footer-info-links__item"
+                            href="#">Контакты</a>
                     </li>
-                    <li class="footer-info-links__items"><a target="_blank" class="footer-info-links__item" href="#">Оплата и
+                    <li class="footer-info-links__items"><a target="_blank" class="footer-info-links__item"
+                            href="#">Оплата и
                             доставка</a>
                     </li>
                 </ul>

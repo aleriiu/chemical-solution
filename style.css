@@ -28,7 +28,68 @@ a {
     cursor: pointer;
 }
 
+a:hover {
+    color: #000000;
+    cursor: pointer;
+}
+
+.links-hover:hover {
+    color: #5ca6ed;
+    cursor: pointer;
+}
+
 /* header */
+
+.menu-button-container {
+    display: none;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+    display: block;
+    background-color: #ec9539;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+}
+
+.menu-button::before {
+    content: '';
+    margin-top: -8px;
+}
+
+.menu-button::after {
+    content: '';
+    margin-top: 8px;
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button {
+    background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
+}
 
 .header__container {
     display: flex;
@@ -49,6 +110,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #000000;
 }
 
 .header__nav-item_btn {
@@ -112,6 +174,7 @@ a {
 .header__nav-item-list {
     display: flex;
     gap: 4rem;
+    position: relative;
 }
 
 .header__nav-item {
@@ -446,6 +509,10 @@ a {
     gap: 6.1rem;
 }
 
+.partners-links__list_gap {
+    padding-bottom: 4rem;
+}
+
 /* footer */
 
 footer {
@@ -559,27 +626,67 @@ footer {
 
 @media (max-width: 1280px) {
 
-    .header__container {
+    .menu-button-container {
+        display: flex;
+        z-index: 4;
+    }
+
+    .header__nav-item-list {
+        position: absolute;
+        z-index: 3;
+        top: 0;
+        right: 0;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
+        gap: 0;
+        padding-top: 3rem;
+        padding-right: 3rem;
+    }
+
+    #menu-toggle~.header__nav-item-list .header__nav-item-burger {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    #menu-toggle:checked~.header__nav-item-list .header__nav-item-burger {
+        padding: 2rem;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .header__nav-item-burger {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        width: 100%;
+        color: #000000;
+        background-color: #ffffff;
+        opacity: 80%;
+    }
+
+
+    .header__nav-item_mob {
+        justify-content: flex-end;
+        gap: 1.5rem;
     }
 
     .header__nav {
-        gap: 0;
+        flex-direction: column-reverse;
+        gap: 1.5rem;
+        align-items: flex-end;
     }
 
-    .header__nav-item {
-        flex-wrap: wrap;
-        padding-top: 1.5rem;
-        gap: 0.8rem;
+    .header__nav-item-burger {
+        margin: 0 1rem;
+        overflow: hidden;
     }
 
     .header__nav-item-group {
         gap: 1rem;
-    }
-
-    .header__nav-item-list {
-        gap: 1rem;
-        justify-content: space-between;
     }
 
     .header__nav-item_contacts-link {
@@ -588,6 +695,7 @@ footer {
 
     .header__nav-item {
         font-size: 0.85rem;
+        flex-wrap: wrap;
     }
 
     .info-links__list_header {
@@ -701,8 +809,28 @@ footer {
         padding: 1.5rem;
     }
 
-    footer {
-        padding-top: 0.875rem;
+    .footer__container {
+        padding: 1.2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .footer-description {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .footer-info-links__item {
+        line-height: 1rem;
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+
+    .footer-info-links {
+        align-items: center;
+        gap: 0.8rem;
     }
 
     .partners-link {
@@ -733,11 +861,13 @@ footer {
 
     .header__container {
         padding: 1rem 1.125rem;
+        flex-direction: column;
     }
 
     .header__nav-item-list {
         justify-content: space-between;
         gap: 0;
+        width: 90%;
     }
 
     .header__nav-item {
@@ -768,4 +898,3 @@ footer {
         font-size: 2rem;
     }
 }
-
