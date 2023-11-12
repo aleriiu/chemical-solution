@@ -792,6 +792,11 @@ footer {
 }
 
 @media (max-width: 790px) {
+
+    .partners-links__list_gap {
+        padding-bottom: 2rem;
+    }
+
     .section-item-header {
         padding: 0 0.3rem 0.3rem 0.3rem;
     }
