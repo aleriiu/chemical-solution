@@ -13,6 +13,8 @@ header,
 main,
 footer {
     padding: 0 0.75rem;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .section {
@@ -567,17 +569,6 @@ footer {
     line-height: 1.125rem;
     font-size: 1rem;
     font-weight: 700;
-}
-
-@media (min-width: 1921px) {
-    .section {
-        width: 70%;
-        margin: 0.75rem auto 0 auto;
-    }
-
-    .footer-container {
-        justify-content: center;
-    }
 }
 
 @media (min-width: 1281px) and (max-width: 1440px) {
