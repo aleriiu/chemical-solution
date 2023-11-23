@@ -65,3 +65,33 @@ setInterval(function () {    //переключение по таймеру
     }
     render();
 }, 5000)
+
+
+// header-fixed
+
+const header = document.querySelector('.header-fixed');
+const headerH = document.querySelector('.header-fixed').clientHeight;
+
+const headerLogo = document.querySelector('.header-logo');
+const seachBtn = document.querySelector('.header__nav-item_btn-input');
+
+document.onscroll = function () {
+
+    let scroll = window.scrollY;
+
+    if (scroll > headerH) {
+        header.classList.add('fixed');
+        document.body.style.paddingTop = headerH + 'px';
+        headerLogo.style.maxWidth = '150' + 'px';
+        // seachBtn.style.paddingRight = '22' + 'rem';
+        seachBtn.classList.add('input-padding');
+    }
+
+    else {
+        header.classList.remove('fixed');
+        document.body.removeAttribute('style');
+        headerLogo.removeAttribute('style');
+        // seachBtn.removeAttribute('style');
+        seachBtn.classList.remove('input-padding');
+    }
+} 

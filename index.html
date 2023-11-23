@@ -14,56 +14,37 @@
 </head>
 
 <body>
-    <header>
+    <header class="header header-fixed">
         <div class="header__container">
-            <img src="./images/logo.png" alt="Лого">
-            <div class="header__nav">
-                <div class="header__nav-item header__nav-item_mob">
-                    <div class="header__nav-item_btn">
-                        <img src="./images/seach-icon.png" alt="icon" width="18">
-                        <input type="text" size="10" class="header__nav-item_btn-input" placeholder="ПОИСК">
-                    </div>
-                    <div class="header__nav-item-group">
-                        <p class="header__nav-item-text"><a target="_blank" class="header__nav-item-text links-hover"
-                                href="mailto:client@chemial.ru">
-                                client@chemial.ru
+            <img class="header-logo" src="./images/logo.png" alt="Лого">
+            <div class="header__nav-item">
+                <form class="header__nav-item_btn">
+                    <img src="./images/seach-icon.png" alt="icon" width="18">
+                    <input type="text" size="10" class="header__nav-item_btn-input" placeholder="ПОИСК">
+                </form>
+                <div class="header__nav-item-group">
+                    <p class="header__nav-item-text"><a target="_blank" class="header__nav-item-text links-hover"
+                            href="mailto:client@chemial.ru">
+                            client@chemial.ru
+                        </a></p>
+                    <div class="header__nav-item_contacts">
+                        <img src="./images/phone-icon.png" alt="icon">
+                        <p class="header__nav-item_contacts-link"><a target="_blank"
+                                class="header__nav-item_contacts-link links-hover" href="tel:+78127777777">
+                                +7 812 777-77-77
                             </a></p>
-                        <div class="header__nav-item_contacts">
-                            <img src="./images/phone-icon.png" alt="icon">
-                            <p class="header__nav-item_contacts-link"><a target="_blank"
-                                    class="header__nav-item_contacts-link links-hover" href="tel:+78127777777">
-                                    +7 812 777-77-77
-                                </a></p>
-                        </div>
-                    </div>
-                    <div class="header__icon">
-                        <a target="_blank" href="#"><img src="./images/icon-scales.png" alt="icon"></a>
-                        <a target="_blank" href="#"><img src="./images/icon-heart.png" alt="icon"></a>
-                        <a target="_blank" href="#"><img src="./images/icon-people.png" alt="icon"></a>
-                    </div>
-                    <div class="header__nav-item_basket">
-                        <img src="./images/icon-basket.png" alt="icon">
-                        <p class="header__nav-item-text"><a class="header__nav-item-text links-hover" href="#">17
-                                товаров</a></p>
                     </div>
                 </div>
-                <input id="menu-toggle" type="checkbox" />
-                <label class='menu-button-container' for="menu-toggle">
-                    <div class='menu-button'></div>
-                </label>
-                <ul class="header__nav-item-list">
-                    <li class="header__nav-item header__nav-item-burger"><a class="header__nav-item links-hover" href="#">КАТАЛОГ</a>
-                    </li>
-                    <li class="header__nav-item header__nav-item-burger"><a class="header__nav-item links-hover" href="#">ПРОИЗВОДСТВО</a>
-                    </li>
-                    <li class="header__nav-item header__nav-item-burger"><a class="header__nav-item links-hover" href="#">ХИМИЧЕСКАЯ
-                            ПРОДУКЦИЯ</a>
-                    </li>
-                    <li class="header__nav-item header__nav-item-burger"><a class="header__nav-item links-hover" href="#">КОНТАКТЫ</a>
-                    </li>
-                    <li class="header__nav-item header__nav-item-burger"><a class="header__nav-item links-hover" href="#">ОПЛАТА И ДОСТАВКА</a>
-                    </li>
-                </ul>
+                <div class="header__icon">
+                    <a target="_blank" href="#"><img src="./images/icon-scales.png" alt="icon"></a>
+                    <a target="_blank" href="#"><img src="./images/icon-heart.png" alt="icon"></a>
+                    <a target="_blank" href="#"><img src="./images/icon-people.png" alt="icon"></a>
+                </div>
+                <div class="header__nav-item_basket">
+                    <img src="./images/icon-basket.png" alt="icon">
+                    <p class="header__nav-item-text"><a class="header__nav-item-text links-hover" href="#">17
+                            товаров</a></p>
+                </div>
             </div>
         </div>
     </header>
