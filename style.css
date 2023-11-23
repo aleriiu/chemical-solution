@@ -577,6 +577,10 @@ footer {
 
 @media (max-width: 1280px) {
 
+    .header-logo {
+        max-width: 200px;
+    }
+
     .header__nav-item-group {
         gap: 1rem;
     }
