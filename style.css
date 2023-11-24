@@ -585,9 +585,9 @@ footer {
     font-weight: 700;
 }
 
-@media (min-width: 1921px) {
+@media (min-width: 1601px) {
     .section {
-        width: 70%;
+        max-width: 1600px;
         margin: 0.75rem auto 0 auto;
     }
 
