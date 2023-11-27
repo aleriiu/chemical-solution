@@ -458,6 +458,14 @@ a:hover {
     border-radius: 10px;
 }
 
+.section-item-container:hover::-webkit-scrollbar {
+    height: 16px;
+}
+
+.section-item-container::-webkit-scrollbar-thumb:horizontal:hover {
+    background-color: #fe890d;
+}
+
 
 /* popular */
 
