@@ -451,6 +451,7 @@ a:hover {
 .section-item-container::-webkit-scrollbar {
     height: 4px;
     background: #FFFFFF;
+    border-radius: 10px;
 }
 
 .section-item-container::-webkit-scrollbar-thumb:horizontal {
@@ -459,7 +460,7 @@ a:hover {
 }
 
 .section-item-container:hover::-webkit-scrollbar {
-    height: 16px;
+    height: 14px;
 }
 
 .section-item-container::-webkit-scrollbar-thumb:horizontal:hover {
@@ -1287,6 +1288,7 @@ footer {
         gap: 1rem;
         justify-content: unset;
     }
+
     .burger-menu {
         left: 20px;
     }
