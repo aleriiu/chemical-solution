@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Химические решения: каталог</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header header-fixed">
+        <div class="header__container">
+            <img class="header-logo" src="./images/logo.png" alt="Лого">
+            <div class="header__nav">
+                <div class="header__nav-item header__nav-item_mob">
+                    <div class="header__nav-item_btn">
+                        <img src="./images/seach-icon.png" alt="icon" width="18">
+                        <input type="text" size="10" class="header__nav-item_btn-input" placeholder="ПОИСК">
+                    </div>
+                    <div class="header__nav-item-group">
+                        <p class="header__nav-item-text"><a target="_blank" class="header__nav-item-text links-hover"
+                                href="mailto:client@chemial.ru">
+                                client@chemial.ru
+                            </a></p>
+                        <div class="header__nav-item_contacts">
+                            <img src="./images/phone-icon.png" alt="icon">
+                            <p class="header__nav-item_contacts-link"><a target="_blank"
+                                    class="header__nav-item_contacts-link links-hover" href="tel:+78127777777">
+                                    +7 812 777-77-77
+                                </a></p>
+                        </div>
+                    </div>
+                    <div class="header__icon">
+                        <a target="_blank" href="#"><img src="./images/icon-scales.png" alt="icon"></a>
+                        <a target="_blank" href="#"><img src="./images/icon-heart.png" alt="icon"></a>
+                        <a target="_blank" href="#"><img src="./images/icon-people.png" alt="icon"></a>
+                    </div>
+                    <div class="header__nav-item_basket">
+                        <img src="./images/icon-basket.png" alt="icon">
+                        <p class="header__nav-item-text"><a class="header__nav-item-text links-hover" href="#">17
+                                товаров</a></p>
+                    </div>
+                </div>
+                <input id="menu-toggle" type="checkbox" />
+                <label class='menu-button-container' for="menu-toggle">
+                    <div class='menu-button'></div>
+                </label>
+                <ul class="header__nav-item-list">
+                    <li class="header__nav-item header__nav-item-burger"><a class="header__nav-item links-hover"
+                            href="#">КАТАЛОГ</a>
+                    </li>
+                    <li class="header__nav-item header__nav-item-burger"><a class="header__nav-item links-hover"
+                            href="#">ПРОИЗВОДСТВО</a>
+                    </li>
+                    <li class="header__nav-item header__nav-item-burger"><a class="header__nav-item links-hover"
+                            href="#">ХИМИЧЕСКАЯ
+                            ПРОДУКЦИЯ</a>
+                    </li>
+                    <li class="header__nav-item header__nav-item-burger"><a class="header__nav-item links-hover"
+                            href="#">КОНТАКТЫ</a>
+                    </li>
+                    <li class="header__nav-item header__nav-item-burger"><a class="header__nav-item links-hover"
+                            href="#">ОПЛАТА И ДОСТАВКА</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="info-nav section">
+            <div class="info-nav_group">
+                <div class="info-nav_range">
+                    <p class="info-nav_range-header">АССОРТИМЕНТ&nbsp;ТОВАРОВ</p>
+                    <img class="info-nav_range-img" src="./images/arrow-right.png" alt="arrow">
+                </div>
+                <div>
+                    <ul class="info-links__btn">
+                        <li class="info-links__list-items"><img src="./images/seach-icon.png" alt="icon"
+                                width="33"><input type="text"
+                                class="info-links__list-item info-links__list-item_hover info-links__list-item_padding"
+                                placeholder="ПОИСК"></li>
+                    </ul>
+                </div>
+            </div>
+            
+                <div class="type-of-goods">
+                    <button class="type-of-goods_btn" type="submit"><img src="./images/icon-catalog.png"
+                            alt="icon"></button>
+                    <button class="type-of-goods_btn" type="submit"><img src="./images/icon-catalog-2.png"
+                            alt="icon"></button>
+                </div>
+                <div class="type-of-price">
+                    <p class="type-of-price_header">По возрастанию</p>
+                    <img class="type-of-price_img" src="./images/arrow-up-down-icon.png" alt="icon">
+                </div>
+
+        </section>
+        <section class="cards-item section">
+            <div class="sidebar__container">
+                <ul class="sidebar__chapter">
+                    <div class="burger-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <li class="sidebar__chapter-header">
+                        <input type="checkbox" class="accordion_toggle" id="toggle-05" hidden>
+                        <label class="accordion_trigger" for="toggle-05">НАЗВАНИЕ&nbsp;ФИЛЬТРА</label>
+                        <div class="accordion_target">
+                            <ul class="accordion_target-checkbox">
+                                <li><input type="checkbox" id="scales" name="scales" />
+                                    <label class="sidebar__chapter-link" for="scales">Выбор фильтра</label>
+                                </li>
+                                <li><input type="checkbox" id="scales" name="scales" />
+                                    <label class="sidebar__chapter-link" for="scales">Выбор фильтра</label>
+                                </li>
+                                <li><input type="checkbox" id="scales" name="scales" />
+                                    <label class="sidebar__chapter-link" for="scales">Выбор фильтра</label>
+                                </li>
+                                <li><input type="checkbox" id="scales" name="scales" />
+                                    <label class="sidebar__chapter-link" for="scales">Выбор фильтра</label>
+                                </li>
+                                <li><input type="checkbox" id="scales" name="scales" />
+                                    <label class="sidebar__chapter-link" for="scales">Выбор фильтра</label>
+                                </li>
+                                <li><input type="checkbox" id="scales" name="scales" />
+                                    <label class="sidebar__chapter-link" for="scales">Выбор фильтра</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <img class="sidebar__chapter-header_img" src="./images/arrow-down.png" alt="arrow">
+                    </li>
+                    <li class="sidebar__chapter-header sidebar__chapter-header_padding">
+                        <input type="checkbox" checked class="accordion_toggle" id="toggle-06" hidden>
+                        <label class="accordion_trigger" for="toggle-06">НАЗВАНИЕ ФИЛЬТРА</label>
+                        <div class="accordion_target">
+                            <ul class="accordion_target-checkbox">
+                                <li><input type="checkbox" id="scales" name="scales" />
+                                    <label class="sidebar__chapter-link" for="scales">Выбор фильтра</label>
+                                </li>
+                                <li><input type="checkbox" id="scales" name="scales" />
+                                    <label class="sidebar__chapter-link" for="scales">Выбор фильтра</label>
+                                </li>
+                                <li><input type="checkbox" id="scales" name="scales" />
+                                    <label class="sidebar__chapter-link" for="scales">Выбор фильтра</label>
+                                </li>
+                                <li><input type="checkbox" id="scales" name="scales" />
+                                    <label class="sidebar__chapter-link" for="scales">Выбор фильтра</label>
+                                </li>
+                                <li><input type="checkbox" id="scales" name="scales" />
+                                    <label class="sidebar__chapter-link" for="scales">Выбор фильтра</label>
+                                </li>
+                                <li><input type="checkbox" id="scales" name="scales" />
+                                    <label class="sidebar__chapter-link" for="scales">Выбор фильтра</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <img class="sidebar__chapter-header_img" src="./images/arrow-down.png" alt="arrow">
+                    </li>
+                    <li class="sidebar__chapter-header sidebar__chapter-header_padding">
+                        <input type="checkbox" class="accordion_toggle" id="toggle-07" hidden>
+                        <label class="accordion_trigger" for="toggle-07">НАЗВАНИЕ ФИЛЬТРА</label>
+                        <div class="accordion_target">
+                            <ul class="accordion_target-checkbox">
+                                <li><input type="checkbox" id="scales" name="scales" />
+                                    <label class="sidebar__chapter-link" for="scales">Выбор фильтра</label>
+                                </li>
+                                <li><input type="checkbox" id="scales" name="scales" />
+                                    <label class="sidebar__chapter-link" for="scales">Выбор фильтра</label>
+                                </li>
+                                <li><input type="checkbox" id="scales" name="scales" />
+                                    <label class="sidebar__chapter-link" for="scales">Выбор фильтра</label>
+                                </li>
+                                <li><input type="checkbox" id="scales" name="scales" />
+                                    <label class="sidebar__chapter-link" for="scales">Выбор фильтра</label>
+                                </li>
+                                <li><input type="checkbox" id="scales" name="scales" />
+                                    <label class="sidebar__chapter-link" for="scales">Выбор фильтра</label>
+                                </li>
+                                <li><input type="checkbox" id="scales" name="scales" />
+                                    <label class="sidebar__chapter-link" for="scales">Выбор фильтра</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <img class="sidebar__chapter-header_img" src="./images/arrow-down.png" alt="arrow">
+                    </li>
+                    <li class="sidebar__chapter-header sidebar__chapter-header_padding">
+                        <input type="checkbox" class="accordion_toggle" id="toggle-01" hidden>
+                        <label class="accordion_trigger" for="toggle-01">НАЗВАНИЕ ФИЛЬТРА</label>
+                        <div class="accordion_target">
+                            <ul class="accordion_target-checkbox">
+                                <li><input type="checkbox" id="scales" name="scales" />
+                                    <label class="sidebar__chapter-link" for="scales">Выбор фильтра</label>
+                                </li>
+                                <li><input type="checkbox" id="scales" name="scales" />
+                                    <label class="sidebar__chapter-link" for="scales">Выбор фильтра</label>
+                                </li>
+                                <li><input type="checkbox" id="scales" name="scales" />
+                                    <label class="sidebar__chapter-link" for="scales">Выбор фильтра</label>
+                                </li>
+                                <li><input type="checkbox" id="scales" name="scales" />
+                                    <label class="sidebar__chapter-link" for="scales">Выбор фильтра</label>
+                                </li>
+                                <li><input type="checkbox" id="scales" name="scales" />
+                                    <label class="sidebar__chapter-link" for="scales">Выбор фильтра</label>
+                                </li>
+                                <li><input type="checkbox" id="scales" name="scales" />
+                                    <label class="sidebar__chapter-link" for="scales">Выбор фильтра</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <img class="sidebar__chapter-header_img" src="./images/arrow-down.png" alt="arrow">
+                    </li>
+                </ul>
+                <div class="socials">
+                    <a href=""><img src="./images/vk-icon-blue.png" alt="icon"></a>
+                    <a href=""><img src="./images/ok-icon.png" alt="icon"></a>
+                    <a href=""><img src="./images/tg-icon.png" alt="icon"></a>
+                    <a href=""><img src="./images/whats-up-icon.png" alt="icon"></a>
+                </div>
+            </div>
+            <div class="cards-container">
+                <div class="cards">
+                    <div class="news-card popular-card__item card-shadow">
+                        <a target="_blank" href="#" class="card-link"></a>
+                        <div class="popular-card__image-wrapper">
+                            <img class="popular-card__image" src="./images/card-item.png">
+                        </div>
+                        <div class="popular-card__text-wrapper">
+                            <h3 class="new-card__title">Название данного товара или средства
+                                в две строчки</h3>
+                            <p class="new-card__text">
+                                Арт. 5683921</p>
+                            <p class="popular-card__price">700 руб / шт</p>
+                            <button class="popular-card__btn popular-card__btn_mob"><a target="_blank"
+                                    class="popular-card__link" href="#">Узнать
+                                    подробнее</a></button>
+                        </div>
+                    </div>
+                    <div class="news-card popular-card__item card-shadow">
+                        <a target="_blank" href="#" class="card-link"></a>
+                        <div class="popular-card__image-wrapper">
+                            <img class="popular-card__image" src="./images/card-item.png">
+                        </div>
+                        <div class="popular-card__text-wrapper">
+                            <h3 class="new-card__title">Название данного товара или средства
+                                в две строчки</h3>
+                            <p class="new-card__text">
+                                Арт. 5683921</p>
+                            <p class="popular-card__price">700 руб / шт</p>
+                            <button class="popular-card__btn popular-card__btn_mob"><a target="_blank"
+                                    class="popular-card__link" href="#">Узнать
+                                    подробнее</a></button>
+                        </div>
+                    </div>
+                    <div class="news-card popular-card__item card-shadow">
+                        <a target="_blank" href="#" class="card-link"></a>
+                        <div class="popular-card__image-wrapper">
+                            <img class="popular-card__image" src="./images/card-item.png">
+                        </div>
+                        <div class="popular-card__text-wrapper">
+                            <h3 class="new-card__title">Название данного товара или средства
+                                в две строчки</h3>
+                            <p class="new-card__text">
+                                Арт. 5683921</p>
+                            <p class="popular-card__price">700 руб / шт</p>
+                            <button class="popular-card__btn popular-card__btn_mob"><a target="_blank"
+                                    class="popular-card__link" href="#">Узнать
+                                    подробнее</a></button>
+                        </div>
+                    </div>
+                    <div class="news-card popular-card__item card-shadow">
+                        <a target="_blank" href="#" class="card-link"></a>
+                        <div class="popular-card__image-wrapper">
+                            <img class="popular-card__image" src="./images/card-item.png">
+                        </div>
+                        <div class="popular-card__text-wrapper">
+                            <h3 class="new-card__title">Название данного товара или средства
+                                в две строчки</h3>
+                            <p class="new-card__text">
+                                Арт. 5683921</p>
+                            <p class="popular-card__price">700 руб / шт</p>
+                            <button class="popular-card__btn popular-card__btn_mob"><a target="_blank"
+                                    class="popular-card__link" href="#">Узнать
+                                    подробнее</a></button>
+                        </div>
+                    </div>
+                    <div class="news-card popular-card__item card-shadow">
+                        <a target="_blank" href="#" class="card-link"></a>
+                        <div class="popular-card__image-wrapper">
+                            <img class="popular-card__image" src="./images/card-item.png">
+                        </div>
+                        <div class="popular-card__text-wrapper">
+                            <h3 class="new-card__title">Название данного товара или средства
+                                в две строчки</h3>
+                            <p class="new-card__text">
+                                Арт. 5683921</p>
+                            <p class="popular-card__price">700 руб / шт</p>
+                            <button class="popular-card__btn popular-card__btn_mob"><a target="_blank"
+                                    class="popular-card__link" href="#">Узнать
+                                    подробнее</a></button>
+                        </div>
+                    </div>
+                    <div class="news-card popular-card__item card-shadow">
+                        <a target="_blank" href="#" class="card-link"></a>
+                        <div class="popular-card__image-wrapper">
+                            <img class="popular-card__image" src="./images/card-item.png">
+                        </div>
+                        <div class="popular-card__text-wrapper">
+                            <h3 class="new-card__title">Название данного товара или средства
+                                в две строчки</h3>
+                            <p class="new-card__text">
+                                Арт. 5683921</p>
+                            <p class="popular-card__price">700 руб / шт</p>
+                            <button class="popular-card__btn popular-card__btn_mob"><a target="_blank"
+                                    class="popular-card__link" href="#">Узнать
+                                    подробнее</a></button>
+                        </div>
+                    </div>
+                    <div class="news-card popular-card__item card-shadow">
+                        <a target="_blank" href="#" class="card-link"></a>
+                        <div class="popular-card__image-wrapper">
+                            <img class="popular-card__image" src="./images/card-item.png">
+                        </div>
+                        <div class="popular-card__text-wrapper">
+                            <h3 class="new-card__title">Название данного товара или средства
+                                в две строчки</h3>
+                            <p class="new-card__text">
+                                Арт. 5683921</p>
+                            <p class="popular-card__price">700 руб / шт</p>
+                            <button class="popular-card__btn popular-card__btn_mob"><a target="_blank"
+                                    class="popular-card__link" href="#">Узнать
+                                    подробнее</a></button>
+                        </div>
+                    </div>
+                    <div class="news-card popular-card__item card-shadow">
+                        <a target="_blank" href="#" class="card-link"></a>
+                        <div class="popular-card__image-wrapper">
+                            <img class="popular-card__image" src="./images/card-item.png">
+                        </div>
+                        <div class="popular-card__text-wrapper">
+                            <h3 class="new-card__title">Название данного товара или средства
+                                в две строчки</h3>
+                            <p class="new-card__text">
+                                Арт. 5683921</p>
+                            <p class="popular-card__price">700 руб / шт</p>
+                            <button class="popular-card__btn popular-card__btn_mob"><a target="_blank"
+                                    class="popular-card__link" href="#">Узнать
+                                    подробнее</a></button>
+                        </div>
+                    </div>
+                    <div class="news-card popular-card__item card-shadow">
+                        <a target="_blank" href="#" class="card-link"></a>
+                        <div class="popular-card__image-wrapper">
+                            <img class="popular-card__image" src="./images/card-item.png">
+                        </div>
+                        <div class="popular-card__text-wrapper">
+                            <h3 class="new-card__title">Название данного товара или средства
+                                в две строчки</h3>
+                            <p class="new-card__text">
+                                Арт. 5683921</p>
+                            <p class="popular-card__price">700 руб / шт</p>
+                            <button class="popular-card__btn popular-card__btn_mob"><a target="_blank"
+                                    class="popular-card__link" href="#">Узнать
+                                    подробнее</a></button>
+                        </div>
+                    </div>
+                    <div class="news-card popular-card__item card-shadow">
+                        <a target="_blank" href="#" class="card-link"></a>
+                        <div class="popular-card__image-wrapper">
+                            <img class="popular-card__image" src="./images/card-item.png">
+                        </div>
+                        <div class="popular-card__text-wrapper">
+                            <h3 class="new-card__title">Название данного товара или средства
+                                в две строчки</h3>
+                            <p class="new-card__text">
+                                Арт. 5683921</p>
+                            <p class="popular-card__price">700 руб / шт</p>
+                            <button class="popular-card__btn popular-card__btn_mob"><a target="_blank"
+                                    class="popular-card__link" href="#">Узнать
+                                    подробнее</a></button>
+                        </div>
+                    </div>
+                    <div class="news-card popular-card__item card-shadow">
+                        <a target="_blank" href="#" class="card-link"></a>
+                        <div class="popular-card__image-wrapper">
+                            <img class="popular-card__image" src="./images/card-item.png">
+                        </div>
+                        <div class="popular-card__text-wrapper">
+                            <h3 class="new-card__title">Название данного товара или средства
+                                в две строчки</h3>
+                            <p class="new-card__text">
+                                Арт. 5683921</p>
+                            <p class="popular-card__price">700 руб / шт</p>
+                            <button class="popular-card__btn popular-card__btn_mob"><a target="_blank"
+                                    class="popular-card__link" href="#">Узнать
+                                    подробнее</a></button>
+                        </div>
+                    </div>
+                    <div class="news-card popular-card__item card-shadow">
+                        <a target="_blank" href="#" class="card-link"></a>
+                        <div class="popular-card__image-wrapper">
+                            <img class="popular-card__image" src="./images/card-item.png">
+                        </div>
+                        <div class="popular-card__text-wrapper">
+                            <h3 class="new-card__title">Название данного товара или средства
+                                в две строчки</h3>
+                            <p class="new-card__text">
+                                Арт. 5683921</p>
+                            <p class="popular-card__price">700 руб / шт</p>
+                            <button class="popular-card__btn popular-card__btn_mob"><a target="_blank"
+                                    class="popular-card__link" href="#">Узнать
+                                    подробнее</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="info section">
+            <div class="info-links_group">
+                <div class="info-links info-links_column">
+                    <h3 class="info-links__list_header">ПРЕИМУЩЕСТВА</h3>
+                    <div class="info-links__list">
+                        <ul class="info-links__list_gap">
+                            <li class="info-links__list-items"><img src="./images/flag_icon.png" alt="icon"
+                                    width="33"><a target="_blank" class="info-links__list-item" href="#">Отгрузка
+                                    на следующий день
+                                </a></li>
+                            <li class="info-links__list-items"><img src="./images/document-icon.png" alt="icon"
+                                    width="33"><a target="_blank" class="info-links__list-item" href="#">Бесплатная
+                                    доставка</a></li>
+                            <li class="info-links__list-items"><img src="./images/vacancy-icon.png" alt="icon"
+                                    width="33"><a target="_blank" class="info-links__list-item" href="#">Оплата по факту
+                                    поставки</a>
+                            </li>
+                        </ul>
+                        <ul class="info-links__list_gap">
+                            <li class="info-links__list-items"><img src="./images/flag_icon.png" alt="icon"
+                                    width="33"><a target="_blank" class="info-links__list-item" href="">Скидка 10%
+                                    на первый заказ
+                                </a></li>
+                            <li class="info-links__list-items"><img src="./images/document-icon.png" alt="icon"
+                                    width="33"><a target="_blank" class="info-links__list-item" href="">Все в
+                                    наличии</a></li>
+                            <li class="info-links__list-items"><img src="./images/vacancy-icon.png" alt="icon"
+                                    width="33"><a target="_blank" class="info-links__list-item" href="">Выгодные
+                                    цены</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="info-links info-links_color">
+                    <h3 class="info-links__list_header">СЕРВИСЫ</h3>
+                    <div class="info-links__list">
+                        <ul class="info-links__list_gap">
+                            <li class="info-links__list-items"><img src="./images/flag_icon.png" alt="icon"
+                                    width="33"><a target="_blank" class="info-links__list-item" href="#">Отгрузка
+                                    на следующий день
+                                </a></li>
+                            <li class="info-links__list-items"><img src="./images/document-icon.png" alt="icon"
+                                    width="33"><a target="_blank" class="info-links__list-item" href="#">Бесплатная
+                                    доставка</a></li>
+                            <li class="info-links__list-items"><img src="./images/vacancy-icon.png" alt="icon"
+                                    width="33"><a target="_blank" class="info-links__list-item" href="#">Оплата по факту
+                                    поставки</a>
+                            </li>
+                        </ul>
+                        <ul class="info-links__list_gap">
+                            <li class="info-links__list-items"><img src="./images/flag_icon.png" alt="icon"
+                                    width="33"><a target="_blank" class="info-links__list-item" href="">Скидка 10%
+                                    на первый заказ
+                                </a></li>
+                            <li class="info-links__list-items"><img src="./images/document-icon.png" alt="icon"
+                                    width="33"><a target="_blank" class="info-links__list-item" href="">Все в
+                                    наличии</a></li>
+                            <li class="info-links__list-items"><img src="./images/vacancy-icon.png" alt="icon"
+                                    width="33"><a target="_blank" class="info-links__list-item" href="">Выгодные
+                                    цены</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section partners">
+            <div class="info-links_group partners-links_group">
+                <div class="partners-links">
+                    <h3 class="info-links__list_header">НАШИ КЛИЕНТЫ</h3>
+                    <div class="partners__list section-item-container">
+                        <img class="partners__list-img" src="./images/partners-img.png" alt="Лукойл">
+                        <img class="partners__list-img" src="./images/partners-img2.png" alt="Роснефть">
+                        <img class="partners__list-img" src="./images/partners-img3.png" alt="Газпром">
+                        <img class="partners__list-img" src="./images/partners-img.png" alt="Лукойл">
+                        <img class="partners__list-img" src="./images/partners-img2.png" alt="Роснефть">
+                        <img class="partners__list-img" src="./images/partners-img3.png" alt="Газпром">
+                        <img class="partners__list-img" src="./images/partners-img.png" alt="Лукойл">
+                        <img class="partners__list-img" src="./images/partners-img2.png" alt="Роснефть">
+                        <img class="partners__list-img" src="./images/partners-img3.png" alt="Газпром">
+                    </div>
+                </div>
+                <div class="partners-links partners-links_color">
+                    <h3 class="info-links__list_header">КОНТАКТЫ</h3>
+                    <div class="partners-links__list">
+                        <ul class="info-links__list_gap partners-links__list_gap">
+                            <li class="info-links__list-items"><img src="./images/flag_icon.png" alt="icon"
+                                    width="33"><a class="info-links__list-item" href="#">+7 812 777-77-77
+                                </a></li>
+                            <li class="info-links__list-items"><img src="./images/document-icon.png" alt="icon"
+                                    width="33"><a class="info-links__list-item" href="#">client@chemial.ru</a></li>
+                        </ul>
+                        <button class="popular-card__btn popular-card__btn-contacts"><a target="_blank"
+                                class="partners-link" href="">Обратный звонок</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer__container">
+            <img src="./images/logo-footer.png" alt="logo" class="header__logo-gikit">
+            <div class="footer-description">
+                <p class="footer-description_text">Пользовательское соглашение и политика
+                    конфиденциальности официального сайта
+                    Химические решения</p>
+            </div>
+            <div class="footer-socials">
+                <a target="_blank" href=""><img src="./images/youtube-icon.png" alt="youtube-icon"></a>
+                <a target="_blank" href=""><img src="./images/telegram-icon.png" alt="telegram-icon"></a>
+                <a target="_blank" href=""><img src="./images/vk-icon.png" alt="vk-icon"></a>
+            </div>
+            <div class="footer-info">
+                <ul class="footer-info-links">
+                    <li class="footer-info-links__items"><a target="_blank" class="footer-info-links__item"
+                            href="#">Каталог
+                        </a></li>
+                    <li class="footer-info-links__items"><a target="_blank" class="footer-info-links__item"
+                            href="#">Производство</a>
+                    </li>
+                    <li class="footer-info-links__items"><a target="_blank" class="footer-info-links__item"
+                            href="#">Химическая
+                            продукция</a></li>
+                    <li class="footer-info-links__items"><a target="_blank" class="footer-info-links__item"
+                            href="#">Контакты</a>
+                    </li>
+                    <li class="footer-info-links__items"><a target="_blank" class="footer-info-links__item"
+                            href="#">Оплата и
+                            доставка</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
