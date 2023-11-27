@@ -433,6 +433,7 @@ a:hover {
     overflow-x: scroll;
     padding-bottom: 2.125rem;
     position: relative;
+    cursor: pointer;
 }
 
 /* .shadow {
@@ -453,6 +454,7 @@ a:hover {
     background: #FFFFFF;
     border-radius: 10px;
 }
+
 
 .section-item-container::-webkit-scrollbar-thumb:horizontal {
     background: #eb9539;
