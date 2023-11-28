@@ -658,7 +658,8 @@ footer {
     gap: 1rem;
 }
 
-.type-of-goods_btn {
+.type-of-goods_btn,
+.type-of-goods_btn-list {
     border: inherit;
     background-color: inherit;
     cursor: pointer;
@@ -682,9 +683,7 @@ footer {
 }
 
 .cards-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 100%;
 }
 
 .cards {
@@ -788,6 +787,11 @@ footer {
     font-size: 0;
 }
 
+.layout-image,
+.list-image {
+    width: 30px;
+}
+
 /* pagination */
 
 .pagination-container {
@@ -814,7 +818,7 @@ footer {
     cursor: pointer;
 }
 
-.cards {
+.cards-container_list{
     display: none;
 }
 
@@ -822,7 +826,6 @@ footer {
 
 .cards-container_list {
     width: 100%;
-    display: flex;
     flex-direction: column;
 }
 
