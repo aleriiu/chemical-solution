@@ -1509,6 +1509,7 @@ footer {
     .info-nav_group {
         flex-direction: column;
         width: inherit;
+        gap: 0.5rem;
     }
 
     .info-nav_range-header {
