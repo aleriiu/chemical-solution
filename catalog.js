@@ -21,3 +21,18 @@ layoutBtn.addEventListener ('click', () => {
     listImg.src = 'images/list-icon-grey.png';
     layoutImg.src = 'images/layout-icon-orange.png';
 })
+
+
+const rangeBtn = document.querySelector('.info-nav_range');
+const infoRange = document.querySelector('.info-links__nav_range');
+
+rangeBtn.addEventListener ('click', () => {
+    if(infoRange.style.display != 'flex') {
+        infoRange.style.display = 'flex';
+    }
+
+    else {
+        infoRange.style.display = 'none';
+    }
+    
+});

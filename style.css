@@ -630,6 +630,8 @@ footer {
     display: flex;
     align-items: center;
     padding-right: 2rem;
+    position: relative;
+    cursor: pointer;
 }
 
 .info-nav_range-header {
@@ -642,6 +644,14 @@ footer {
 
 .info-nav_range-img {
     width: 40px;
+}
+
+.info-links__nav_range {
+    display: none;
+    position: absolute;
+    z-index: 5;
+    top: 88px;
+    left: 0;
 }
 
 .info-links__list-item_padding {
@@ -715,7 +725,6 @@ footer {
     height: 3px;
     border-radius: 50px;
     background-color: #6EA4E7;
-    ;
 }
 
 .burger-menu>span:not(:last-child) {
