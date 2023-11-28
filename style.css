@@ -827,7 +827,7 @@ footer {
     cursor: pointer;
 }
 
-.cards-container_list{
+.cards-container_list {
     display: none;
 }
 
@@ -1611,6 +1611,10 @@ footer {
 
     .cards-container_list-nav_text {
         font-size: 0.6rem;
+    }
+
+    .info-links__nav_range {
+        transform: translateX(-15px);
     }
 
 
