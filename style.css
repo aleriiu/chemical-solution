@@ -1086,6 +1086,7 @@ footer {
 .item-code {
     font-size: 1rem;
     font-weight: 500;
+    color: #000000;
 }
 
 .item-options .popular-card__list-checkbox_container {
