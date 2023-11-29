@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Химические решения: каталог</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <script defer src="header.js"></script>
+    <script defer src="catalog.js"></script>
+</head>
+
+<body>
+    <header class="header header-fixed">
+        <div class="header__container">
+            <img class="header-logo" src="./images/logo.png" alt="Лого">
+            <div class="header__nav">
+                <div class="header__nav-item header__nav-item_mob">
+                    <div class="header__nav-item_btn">
+                        <img src="./images/seach-icon.png" alt="icon" width="18">
+                        <input type="text" size="10" class="header__nav-item_btn-input" placeholder="ПОИСК">
+                    </div>
+                    <div class="header__nav-item-group">
+                        <p class="header__nav-item-text"><a target="_blank" class="header__nav-item-text links-hover"
+                                href="mailto:client@chemial.ru">
+                                client@chemial.ru
+                            </a></p>
+                        <div class="header__nav-item_contacts">
+                            <img src="./images/phone-icon.png" alt="icon">
+                            <p class="header__nav-item_contacts-link"><a target="_blank"
+                                    class="header__nav-item_contacts-link links-hover" href="tel:+78127777777">
+                                    +7 812 777-77-77
+                                </a></p>
+                        </div>
+                    </div>
+                    <div class="header__icon">
+                        <a target="_blank" href="#"><img src="./images/icon-scales.png" alt="icon"></a>
+                        <a target="_blank" href="#"><img src="./images/icon-heart.png" alt="icon"></a>
+                        <a target="_blank" href="#"><img src="./images/icon-people.png" alt="icon"></a>
+                    </div>
+                    <div class="header__nav-item_basket">
+                        <img src="./images/icon-basket.png" alt="icon">
+                        <p class="header__nav-item-text"><a class="header__nav-item-text links-hover" href="#">17
+                                товаров</a></p>
+                    </div>
+                </div>
+                <input id="menu-toggle" type="checkbox" />
+                <label class='menu-button-container' for="menu-toggle">
+                    <div class='menu-button'></div>
+                </label>
+                <ul class="header__nav-item-list">
+                    <li class="header__nav-item header__nav-item-burger"><a class="header__nav-item links-hover"
+                            href="./index.html">КАТАЛОГ</a>
+                    </li>
+                    <li class="header__nav-item header__nav-item-burger"><a class="header__nav-item links-hover"
+                            href="#">ПРОИЗВОДСТВО</a>
+                    </li>
+                    <li class="header__nav-item header__nav-item-burger"><a class="header__nav-item links-hover"
+                            href="#">ХИМИЧЕСКАЯ
+                            ПРОДУКЦИЯ</a>
+                    </li>
+                    <li class="header__nav-item header__nav-item-burger"><a class="header__nav-item links-hover"
+                            href="#">КОНТАКТЫ</a>
+                    </li>
+                    <li class="header__nav-item header__nav-item-burger"><a class="header__nav-item links-hover"
+                            href="#">ОПЛАТА И ДОСТАВКА</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="info-nav section">
+            <div class="info-nav_group">
+                <div class="info-nav_range">
+                    <p class="info-nav_range-header">АССОРТИМЕНТ&nbsp;ТОВАРОВ</p>
+                    <img class="info-nav_range-img" src="./images/arrow-right.png" alt="arrow">
+                    <div class="info-links info-links__nav_range">
+                        <h3 class="info-links__list_header">АССОРТИМЕНТ ТОВАРОВ</h3>
+                        <div class="info-links__list">
+                            <ul class="info-links__list_gap">
+                                <li class="info-links__list-items"><img src="./images/flag_icon.png" alt="icon"
+                                        width="33"><a target="_blank" class="info-links__list-item" href="#">Химическая
+                                        продукция
+                                    </a></li>
+                                <li class="info-links__list-items"><img src="./images/document-icon.png" alt="icon"
+                                        width="33"><a target="_blank" class="info-links__list-item" href="#">Хобби и
+                                        творчество</a></li>
+                                <li class="info-links__list-items"><img src="./images/vacancy-icon.png" alt="icon"
+                                        width="33"><a target="_blank" class="info-links__list-item" href="#">Индикаторы
+                                        и красители</a></li>
+                            </ul>
+                            <ul class="info-links__list_gap">
+                                <li class="info-links__list-items"><img src="./images/mask-icon.png" alt="icon"
+                                        width="33"><a target="_blank" class="info-links__list-item" href="">Питательные
+                                        среды
+                                    </a></li>
+                                <li class="info-links__list-items"><img src="./images/wond-icon.png" alt="icon"
+                                        width="33"><a target="_blank" class="info-links__list-item" href="">Лабораторное
+                                        оборудование</a></li>
+                                <li class="info-links__list-items"><img src="./images/grant-icon.png" alt="icon"
+                                        width="33"><a target="_blank" class="info-links__list-item"
+                                        href="">Измерительное
+                                        оборудование</a></li>
+                            </ul>
+                            <ul class="info-links__list_gap">
+                                <li class="info-links__list-items"><img src="./images/payment-icon.png" alt="icon"
+                                        width="33"><a target="_blank" class="info-links__list-item"
+                                        href="">Вспомогательное
+                                        оборудование
+                                    </a></li>
+                                <li class="info-links__list-items"><img src="./images/payment-icon.png" alt="icon"
+                                        width="33"><a target="_blank" class="info-links__list-item" href="">Бумага
+                                        фильтровальная</a></li>
+                                <li class="info-links__list-items"><img src="./images/payment-icon.png" alt="icon"
+                                        width="33"><a target="_blank" class="info-links__list-item" href="">Средства
+                                        защиты</a></li>
+                            </ul>
+                            <ul class="info-links__list_gap">
+                                <li class="info-links__list-items"><img src="./images/payment-icon.png" alt="icon"
+                                        width="33"><a target="_blank" class="info-links__list-item"
+                                        href="">Стандарт-титры
+                                        (фиксаналы)
+                                    </a></li>
+                                <li class="info-links__list-items"><img src="./images/payment-icon.png" alt="icon"
+                                        width="33"><a target="_blank" class="info-links__list-item" href="">Стандартные
+                                        образцы</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul class="info-links__btn">
+                                <li class="info-links__list-items"><img src="./images/seach-icon.png" alt="icon"
+                                        width="33"><input type="text"
+                                        class="info-links__list-item info-links__list-item_hover" placeholder="ПОИСК">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <ul class="info-links__btn">
+                        <li class="info-links__list-items"><img src="./images/seach-icon.png" alt="icon"
+                                width="33"><input type="text"
+                                class="info-links__list-item info-links__list-item_hover info-links__list-item_padding"
+                                placeholder="ПОИСК"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="info-nav_back">
+                <img src="./images/arrow-orange-left.png" alt="Стрелка назад" class="info-nav_back-arrow">
+                <p class="info-nav_range-header info-nav_back-title">НАЗАД</p>
+            </div>
+        </section>
+        <section class="item section">
+            <div class="item-top">
+                <div class="item-img">
+                    <img src="./images/card-item.png" alt="Изображение товара" class="item-img">
+                </div>
+                <div class="item-info">
+                    <div class="cards-container_list-nav">
+                        <p class="cards-container_list-nav_text">Заголовок раздела</p>
+                        <img class="cards-container_list-nav_img" src="./images/arrow-orange.png" alt="icon">
+                        <p class="cards-container_list-nav_text cards-container_list-nav_text-color"> Подзаголовок
+                            раздела
+                        </p>
+                    </div>
+                    <h3 class="info-links__list_header item-name">Серебро азотнокислое</h3>
+                    <p class="item-code">Артикул: 84202034-12</p>
+                    <div class="item-options">
+                        <ul class="popular-card__list-checkbox_container">
+                            <li class="popular-card__list-checkbox"><input class="popular-card__list-checkbox_input"
+                                    type="checkbox" checked id="product-selection" name="product-selection" />
+                                <label class="popular-card__text_list" for="product-selection">Разновидность
+                                    товара</label>
+                            </li>
+                            <li class="popular-card__list-checkbox"><input class="popular-card__list-checkbox_input"
+                                    type="checkbox" id="product-selection01" name="product-selection01" />
+                                <label class="popular-card__text_list" for="product-selection01">Разновидность
+                                    товара</label>
+                            </li>
+                        </ul>
+                        <div class="item-quantity">
+                            <img src="./images/arrow-up.png" alt="Добавить" class="arrow">
+                            <p><span>3</span>шт</p>
+                            <img src="./images/arrowDown.png" alt="Убавить" class="arrow">
+                        </div>
+                        <button class="popular-card__btn popular-card__btn_mob">В корзину</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="info section">
+            <div class="info-links_group">
+                <div class="info-links info-links_column">
+                    <h3 class="info-links__list_header">ПРЕИМУЩЕСТВА</h3>
+                    <div class="info-links__list">
+                        <ul class="info-links__list_gap">
+                            <li class="info-links__list-items"><img src="./images/flag_icon.png" alt="icon"
+                                    width="33"><a target="_blank" class="info-links__list-item" href="#">Отгрузка
+                                    на следующий день
+                                </a></li>
+                            <li class="info-links__list-items"><img src="./images/document-icon.png" alt="icon"
+                                    width="33"><a target="_blank" class="info-links__list-item" href="#">Бесплатная
+                                    доставка</a></li>
+                            <li class="info-links__list-items"><img src="./images/vacancy-icon.png" alt="icon"
+                                    width="33"><a target="_blank" class="info-links__list-item" href="#">Оплата по факту
+                                    поставки</a>
+                            </li>
+                        </ul>
+                        <ul class="info-links__list_gap">
+                            <li class="info-links__list-items"><img src="./images/flag_icon.png" alt="icon"
+                                    width="33"><a target="_blank" class="info-links__list-item" href="">Скидка 10%
+                                    на первый заказ
+                                </a></li>
+                            <li class="info-links__list-items"><img src="./images/document-icon.png" alt="icon"
+                                    width="33"><a target="_blank" class="info-links__list-item" href="">Все в
+                                    наличии</a></li>
+                            <li class="info-links__list-items"><img src="./images/vacancy-icon.png" alt="icon"
+                                    width="33"><a target="_blank" class="info-links__list-item" href="">Выгодные
+                                    цены</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="info-links info-links_color">
+                    <h3 class="info-links__list_header">СЕРВИСЫ</h3>
+                    <div class="info-links__list">
+                        <ul class="info-links__list_gap">
+                            <li class="info-links__list-items"><img src="./images/flag_icon.png" alt="icon"
+                                    width="33"><a target="_blank" class="info-links__list-item" href="#">Отгрузка
+                                    на следующий день
+                                </a></li>
+                            <li class="info-links__list-items"><img src="./images/document-icon.png" alt="icon"
+                                    width="33"><a target="_blank" class="info-links__list-item" href="#">Бесплатная
+                                    доставка</a></li>
+                            <li class="info-links__list-items"><img src="./images/vacancy-icon.png" alt="icon"
+                                    width="33"><a target="_blank" class="info-links__list-item" href="#">Оплата по факту
+                                    поставки</a>
+                            </li>
+                        </ul>
+                        <ul class="info-links__list_gap">
+                            <li class="info-links__list-items"><img src="./images/flag_icon.png" alt="icon"
+                                    width="33"><a target="_blank" class="info-links__list-item" href="">Скидка 10%
+                                    на первый заказ
+                                </a></li>
+                            <li class="info-links__list-items"><img src="./images/document-icon.png" alt="icon"
+                                    width="33"><a target="_blank" class="info-links__list-item" href="">Все в
+                                    наличии</a></li>
+                            <li class="info-links__list-items"><img src="./images/vacancy-icon.png" alt="icon"
+                                    width="33"><a target="_blank" class="info-links__list-item" href="">Выгодные
+                                    цены</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section partners">
+            <div class="info-links_group partners-links_group">
+                <div class="partners-links">
+                    <h3 class="info-links__list_header">НАШИ КЛИЕНТЫ</h3>
+                    <div class="partners__list section-item-container">
+                        <img class="partners__list-img" src="./images/partners-img.png" alt="Лукойл">
+                        <img class="partners__list-img" src="./images/partners-img2.png" alt="Роснефть">
+                        <img class="partners__list-img" src="./images/partners-img3.png" alt="Газпром">
+                        <img class="partners__list-img" src="./images/partners-img.png" alt="Лукойл">
+                        <img class="partners__list-img" src="./images/partners-img2.png" alt="Роснефть">
+                        <img class="partners__list-img" src="./images/partners-img3.png" alt="Газпром">
+                        <img class="partners__list-img" src="./images/partners-img.png" alt="Лукойл">
+                        <img class="partners__list-img" src="./images/partners-img2.png" alt="Роснефть">
+                        <img class="partners__list-img" src="./images/partners-img3.png" alt="Газпром">
+                    </div>
+                </div>
+                <div class="partners-links partners-links_color">
+                    <h3 class="info-links__list_header">КОНТАКТЫ</h3>
+                    <div class="partners-links__list">
+                        <ul class="info-links__list_gap partners-links__list_gap">
+                            <li class="info-links__list-items"><img src="./images/flag_icon.png" alt="icon"
+                                    width="33"><a class="info-links__list-item" href="#">+7 812 777-77-77
+                                </a></li>
+                            <li class="info-links__list-items"><img src="./images/document-icon.png" alt="icon"
+                                    width="33"><a class="info-links__list-item" href="#">client@chemial.ru</a></li>
+                        </ul>
+                        <button class="popular-card__btn popular-card__btn-contacts"><a target="_blank"
+                                class="partners-link" href="">Обратный звонок</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer__container">
+            <img src="./images/logo-footer.png" alt="logo" class="header__logo-gikit">
+            <div class="footer-description">
+                <p class="footer-description_text">Пользовательское соглашение и политика
+                    конфиденциальности официального сайта
+                    Химические решения</p>
+            </div>
+            <div class="footer-socials">
+                <a target="_blank" href=""><img src="./images/youtube-icon.png" alt="youtube-icon"></a>
+                <a target="_blank" href=""><img src="./images/telegram-icon.png" alt="telegram-icon"></a>
+                <a target="_blank" href=""><img src="./images/vk-icon.png" alt="vk-icon"></a>
+            </div>
+            <div class="footer-info">
+                <ul class="footer-info-links">
+                    <li class="footer-info-links__items"><a target="_blank" class="footer-info-links__item"
+                            href="#">Каталог
+                        </a></li>
+                    <li class="footer-info-links__items"><a target="_blank" class="footer-info-links__item"
+                            href="#">Производство</a>
+                    </li>
+                    <li class="footer-info-links__items"><a target="_blank" class="footer-info-links__item"
+                            href="#">Химическая
+                            продукция</a></li>
+                    <li class="footer-info-links__items"><a target="_blank" class="footer-info-links__item"
+                            href="#">Контакты</a>
+                    </li>
+                    <li class="footer-info-links__items"><a target="_blank" class="footer-info-links__item"
+                            href="#">Оплата и
+                            доставка</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
