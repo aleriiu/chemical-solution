@@ -1797,7 +1797,8 @@ footer {
         padding: 2rem;
     }
 
-    .cards-container_list-nav_text {
+    .cards-container_list-nav_text,
+    .breadcrumb__links {
         font-size: 0.6rem;
     }
 
