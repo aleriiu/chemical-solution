@@ -288,6 +288,15 @@
                 </div>
             </div>
             <div class="cards-container">
+                <ul class="cards-container_list-nav">
+                    <li class="cards-container_list-nav_text"><a class="breadcrumb__links" href="">Заголовок раздела</a>
+                    </li>
+                    <img class="cards-container_list-nav_img" src="./images/arrow-orange.png" alt="icon">
+                    <li class="cards-container_list-nav_text cards-container_list-nav_text-color"><a
+                            class="breadcrumb__links breadcrumb__links_color" href="">Подзаголовок
+                            раздела</a>
+                    </li>
+                </ul>
                 <div class="cards">
                     <div class="news-card popular-card__item card-shadow">
                         <a target="_blank" href="./item.html" class="card-link"></a>
@@ -483,16 +492,66 @@
                     </div>
                 </div>
                 <div class="cards-container_list">
-                    <div class="cards-container_list-nav">
-                        <p class="cards-container_list-nav_text">Заголовок раздела</p>
-                        <img class="cards-container_list-nav_img" src="./images/arrow-orange.png" alt="icon">
-                        <p class="cards-container_list-nav_text cards-container_list-nav_text-color"> Подзаголовок
-                            раздела
-                        </p>
-                    </div>
                     <div class="cards-list">
                         <div class="popular-card__item-list">
-                            <a target="_blank" href="./item.html" class="card-link"></a>
+                            <div class="popular-card__image-wrapper-list">
+                                <img class="popular-card__image-list" src="./images/card-item.png">
+                            </div>
+                            <div class="popular-card__text-wrapper-list">
+                                <h3 class="new-card__title popular-card__title">Название данного товара или средства
+                                    в две строчки</h3>
+                                <div class="popular-card__text-container">
+                                    <p class="popular-card__text_list">
+                                        Арт. 5683921</p>
+                                    <p class="popular-card__text_list">
+                                        Страна: Россия</p>
+                                    <p class="popular-card__text_list">
+                                        ГОСТ 5683921-13.4567</p>
+                                </div>
+                            </div>
+                             <!-- <a target="_blank" href="#" class="card-link"></a> -->
+                            <ul class="popular-card__list-checkbox_container">
+                                <li class="popular-card__list-checkbox"><input class="popular-card__list-checkbox_input"
+                                        type="checkbox" checked id="product-selection" name="product-selection" />
+                                    <label class="popular-card__text_list" for="product-selection">Разновидность
+                                        товара</label>
+                                </li>
+                                <li class="popular-card__list-checkbox"><input class="popular-card__list-checkbox_input"
+                                        type="checkbox" id="product-selection01" name="product-selection01" />
+                                    <label class="popular-card__text_list" for="product-selection01">Разновидность
+                                        товара</label>
+                                </li>
+                                <li class="popular-card__list-checkbox"><input class="popular-card__list-checkbox_input"
+                                        type="checkbox" id="product-selection02" name="product-selection02" />
+                                    <label class="popular-card__text_list" for="product-selection02">Разновидность
+                                        товара</label>
+                                </li>
+                            </ul>
+                            <div class="popular-card__text-wrapper__list">
+                                <p class="popular-card__price_list">700 <span class="popular-card__price_list-color">руб
+                                        / шт</span></p>
+                                <p class="popular-card__price_list">700 <span class="popular-card__price_list-color">руб
+                                        / шт</span></p>
+                                <p class="popular-card__price_list">700 <span class="popular-card__price_list-color">руб
+                                        / шт</span></p>
+                            </div>
+                            <div class="popular-card__amount">
+                                <button class="popular-card__amount_btn"><img class="popular-card__amount_btn-img"
+                                        src="./images/arrow-up.png" alt="icon"></button>
+                                <p class="popular-card__amount_list">3 <span
+                                        class="popular-card__amount_list_color">Шт</span>
+                                </p>
+                                <button class="popular-card__amount_btn"><img class="popular-card__amount_btn-img"
+                                        src="./images/arrowDown.png" alt="icon"></button>
+                            </div>
+                            <div class="popular-card_list-basket">
+                                <button class="popular-card_list-basket_btn">В корзину</button>
+                                <p class="popular-card_list-basket_text">В наличии: 53 шт.</p>
+                            </div>
+                            <button class="popular-card_list-fav"><img src="./images/heart-icon.png" alt=""></button>
+                        </div>
+                        <div class="popular-card__item-list">
+                            <!-- <a target="_blank" href="#" class="card-link"></a> -->
                             <div class="popular-card__image-wrapper-list">
                                 <img class="popular-card__image-list" src="./images/card-item.png">
                             </div>
@@ -549,7 +608,7 @@
                             <button class="popular-card_list-fav"><img src="./images/heart-icon.png" alt=""></button>
                         </div>
                         <div class="popular-card__item-list">
-                            <a target="_blank" href="./item.html" class="card-link"></a>
+                            <!-- <a target="_blank" href="#" class="card-link"></a> -->
                             <div class="popular-card__image-wrapper-list">
                                 <img class="popular-card__image-list" src="./images/card-item.png">
                             </div>
@@ -606,7 +665,7 @@
                             <button class="popular-card_list-fav"><img src="./images/heart-icon.png" alt=""></button>
                         </div>
                         <div class="popular-card__item-list">
-                            <a target="_blank" href="./item.html" class="card-link"></a>
+                            <!-- <a target="_blank" href="#" class="card-link"></a> -->
                             <div class="popular-card__image-wrapper-list">
                                 <img class="popular-card__image-list" src="./images/card-item.png">
                             </div>
@@ -663,7 +722,7 @@
                             <button class="popular-card_list-fav"><img src="./images/heart-icon.png" alt=""></button>
                         </div>
                         <div class="popular-card__item-list">
-                            <a target="_blank" href="./item.html" class="card-link"></a>
+                            <!-- <a target="_blank" href="#" class="card-link"></a> -->
                             <div class="popular-card__image-wrapper-list">
                                 <img class="popular-card__image-list" src="./images/card-item.png">
                             </div>
@@ -720,7 +779,7 @@
                             <button class="popular-card_list-fav"><img src="./images/heart-icon.png" alt=""></button>
                         </div>
                         <div class="popular-card__item-list">
-                            <a target="_blank" href="./item.html" class="card-link"></a>
+                            <!-- <a target="_blank" href="#" class="card-link"></a> -->
                             <div class="popular-card__image-wrapper-list">
                                 <img class="popular-card__image-list" src="./images/card-item.png">
                             </div>
@@ -777,7 +836,7 @@
                             <button class="popular-card_list-fav"><img src="./images/heart-icon.png" alt=""></button>
                         </div>
                         <div class="popular-card__item-list">
-                            <a target="_blank" href="./item.html" class="card-link"></a>
+                            <!-- <a target="_blank" href="#" class="card-link"></a> -->
                             <div class="popular-card__image-wrapper-list">
                                 <img class="popular-card__image-list" src="./images/card-item.png">
                             </div>
@@ -834,7 +893,7 @@
                             <button class="popular-card_list-fav"><img src="./images/heart-icon.png" alt=""></button>
                         </div>
                         <div class="popular-card__item-list">
-                            <a target="_blank" href="./item.html" class="card-link"></a>
+                            <!-- <a target="_blank" href="#" class="card-link"></a> -->
                             <div class="popular-card__image-wrapper-list">
                                 <img class="popular-card__image-list" src="./images/card-item.png">
                             </div>
@@ -891,7 +950,7 @@
                             <button class="popular-card_list-fav"><img src="./images/heart-icon.png" alt=""></button>
                         </div>
                         <div class="popular-card__item-list">
-                            <a target="_blank" href="./item.html" class="card-link"></a>
+                            <!-- <a target="_blank" href="#" class="card-link"></a> -->
                             <div class="popular-card__image-wrapper-list">
                                 <img class="popular-card__image-list" src="./images/card-item.png">
                             </div>
@@ -948,7 +1007,7 @@
                             <button class="popular-card_list-fav"><img src="./images/heart-icon.png" alt=""></button>
                         </div>
                         <div class="popular-card__item-list">
-                            <a target="_blank" href="./item.html" class="card-link"></a>
+                            <!-- <a target="_blank" href="#" class="card-link"></a> -->
                             <div class="popular-card__image-wrapper-list">
                                 <img class="popular-card__image-list" src="./images/card-item.png">
                             </div>
@@ -1005,7 +1064,7 @@
                             <button class="popular-card_list-fav"><img src="./images/heart-icon.png" alt=""></button>
                         </div>
                         <div class="popular-card__item-list">
-                            <a target="_blank" href="./item.html" class="card-link"></a>
+                            <!-- <a target="_blank" href="#" class="card-link"></a> -->
                             <div class="popular-card__image-wrapper-list">
                                 <img class="popular-card__image-list" src="./images/card-item.png">
                             </div>
@@ -1062,64 +1121,7 @@
                             <button class="popular-card_list-fav"><img src="./images/heart-icon.png" alt=""></button>
                         </div>
                         <div class="popular-card__item-list">
-                            <a target="_blank" href="./item.html" class="card-link"></a>
-                            <div class="popular-card__image-wrapper-list">
-                                <img class="popular-card__image-list" src="./images/card-item.png">
-                            </div>
-                            <div class="popular-card__text-wrapper-list">
-                                <h3 class="new-card__title popular-card__title">Название данного товара или средства
-                                    в две строчки</h3>
-                                <div class="popular-card__text-container">
-                                    <p class="popular-card__text_list">
-                                        Арт. 5683921</p>
-                                    <p class="popular-card__text_list">
-                                        Страна: Россия</p>
-                                    <p class="popular-card__text_list">
-                                        ГОСТ 5683921-13.4567</p>
-                                </div>
-                            </div>
-                            <ul class="popular-card__list-checkbox_container">
-                                <li class="popular-card__list-checkbox"><input class="popular-card__list-checkbox_input"
-                                        type="checkbox" checked id="product-selection" name="product-selection" />
-                                    <label class="popular-card__text_list" for="product-selection">Разновидность
-                                        товара</label>
-                                </li>
-                                <li class="popular-card__list-checkbox"><input class="popular-card__list-checkbox_input"
-                                        type="checkbox" id="product-selection01" name="product-selection01" />
-                                    <label class="popular-card__text_list" for="product-selection01">Разновидность
-                                        товара</label>
-                                </li>
-                                <li class="popular-card__list-checkbox"><input class="popular-card__list-checkbox_input"
-                                        type="checkbox" id="product-selection02" name="product-selection02" />
-                                    <label class="popular-card__text_list" for="product-selection02">Разновидность
-                                        товара</label>
-                                </li>
-                            </ul>
-                            <div class="popular-card__text-wrapper__list">
-                                <p class="popular-card__price_list">700 <span class="popular-card__price_list-color">руб
-                                        / шт</span></p>
-                                <p class="popular-card__price_list">700 <span class="popular-card__price_list-color">руб
-                                        / шт</span></p>
-                                <p class="popular-card__price_list">700 <span class="popular-card__price_list-color">руб
-                                        / шт</span></p>
-                            </div>
-                            <div class="popular-card__amount">
-                                <button class="popular-card__amount_btn"><img class="popular-card__amount_btn-img"
-                                        src="./images/arrow-up.png" alt="icon"></button>
-                                <p class="popular-card__amount_list">3 <span
-                                        class="popular-card__amount_list_color">Шт</span>
-                                </p>
-                                <button class="popular-card__amount_btn"><img class="popular-card__amount_btn-img"
-                                        src="./images/arrowDown.png" alt="icon"></button>
-                            </div>
-                            <div class="popular-card_list-basket">
-                                <button class="popular-card_list-basket_btn">В корзину</button>
-                                <p class="popular-card_list-basket_text">В наличии: 53 шт.</p>
-                            </div>
-                            <button class="popular-card_list-fav"><img src="./images/heart-icon.png" alt=""></button>
-                        </div>
-                        <div class="popular-card__item-list">
-                            <a target="_blank" href="./item.html" class="card-link"></a>
+                            <!-- <a target="_blank" href="#" class="card-link"></a> -->
                             <div class="popular-card__image-wrapper-list">
                                 <img class="popular-card__image-list" src="./images/card-item.png">
                             </div>

@@ -841,13 +841,16 @@ footer {
     align-items: center;
 }
 
-.cards-container_list-nav_text {
+.cards-container_list-nav_text,
+.breadcrumb__links {
     font-size: 1rem;
     font-weight: 400;
     color: #d6d6d6;
+    cursor: pointer;
 }
 
-.cards-container_list-nav_text-color {
+.cards-container_list-nav_text-color,
+.breadcrumb__links_color {
     color: #000000;
 }
 
