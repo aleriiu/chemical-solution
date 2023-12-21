@@ -628,6 +628,8 @@ footer {
     padding-right: 2rem;
     position: relative;
     cursor: pointer;
+    flex-shrink: 0;
+    width: 310px;
 }
 
 .info-nav_range-header {
@@ -688,10 +690,6 @@ footer {
     margin-top: 0.75rem;
 }
 
-.cards-container {
-    width: 100%;
-}
-
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -704,6 +702,8 @@ footer {
     margin-right: 1rem;
     position: relative;
     flex-direction: column;
+    width: 310px;
+    flex-shrink: 0;
 }
 
 .burger-menu {
@@ -712,7 +712,7 @@ footer {
     width: 25px;
     position: absolute;
     left: 10px;
-    top: 10px;
+    top: 23px;
 }
 
 .burger-menu>span {
@@ -752,7 +752,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
-    padding: 3rem 5.5rem 2rem 3rem;
+    padding: 3rem 1rem 2rem 3rem;
 }
 
 .sidebar__chapter-header_padding {
@@ -808,6 +808,10 @@ footer {
     gap: 0.5rem;
 }
 
+.cards-container {
+    width: 100%;
+}
+
 .cards-container_list-pagination {
     width: 100%;
     display: flex;
@@ -861,6 +865,7 @@ footer {
     background-color: #FFFFFF;
     justify-content: space-between;
     padding: 1rem 2rem;
+    align-items: center;
 }
 
 .cards-list {
@@ -879,6 +884,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    width: 35%;
 }
 
 .popular-card__text_list,
@@ -1475,6 +1481,7 @@ footer {
         padding: 3.938rem 2.688rem 3.813rem 3rem;
         position: absolute;
         z-index: 2;
+        width: 370px;
     }
 
     .sidebar__chapter {
@@ -1561,6 +1568,10 @@ footer {
 
     .info-padding {
         padding-top: 1.313rem;
+    }
+
+    .popular-card__text-wrapper-list {
+        width: 60%;
     }
 
     /********** ENDS ITEM PAGE **********/
@@ -1754,6 +1765,10 @@ footer {
 
     .burger-menu {
         left: 20px;
+    }
+
+    .popular-card__text-wrapper-list {
+        width: 100%;
     }
 
     .popular-card__item-list {
